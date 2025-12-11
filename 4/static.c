@@ -16,7 +16,6 @@ int main() {
         scanf("%s", cmd);
         
         if (strcmp(cmd, "exit") == 0) break;
-        
         if (strcmp(cmd, "1") == 0) {
             float a, b, e;
             scanf("%f %f %f", &a, &b, &e);
